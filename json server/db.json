@@ -1,0 +1,210 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iphone 13",
+      "description": "he iPhone 13 and iPhone 13 Mini (stylized as iPhone 13 mini) are smartphones designed, developed, marketed, and sold by Apple Inc. They are the fifteenth generation of iPhones (succeeding the iPhone 12 and iPhone 12 Mini respectively). They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. Pre-orders for the iPhone 13 and iPhone 13 Mini began on September 17, 2021. They were officially released on September 24, 2021. As of May 2024, the iPhone 13 is the oldest iPhone model still officially sold by, and fully supported by Apple (the iPhone 13 Mini was discontinued on September 12, 2023).[13]",
+      "price": 1000,
+      "stock": 20,
+      "category": "smartphones",
+      "image": "https://th.bing.com/th/id/OIP.85kYOzTbIVzxUVp7IK4tDwHaEo?w=310&h=193&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "2",
+      "title": "ipad pro",
+      "description": "The all-new iPad Pro packs astonishing power into an unbelievably thin, light, and portable design. Push the limits of what’s possible on iPad with a superportable 11-inch model and an expansive 13-inch model that is the thinnest product Apple has ever created",
+      "price": 1249,
+      "stock": 36,
+      "category": "smartphones",
+      "image": "https://th.bing.com/th/id/OIP.9y4P8ByD85bwqQUqj4AndwHaEt?w=302&h=192&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "3",
+      "title": "Apple watch ultra 2",
+      "description": "he most rugged and capable Apple Watch pushes the limits again. Featuring the all-new S9 SiP. A magical new way to use your watch without touching the screen. The brightest Apple display ever. And now you can choose a case and band combination that is carbon neutral.",
+      "price": 499,
+      "stock": 32,
+      "category": "smartphones",
+      "image": "https://th.bing.com/th/id/OIP.40XqgViwxVHBaoRx0VhWWQHaD4?w=328&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "4",
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "stock": 83,
+      "category": "laptops",
+      "image": "https://cdn.dummyjson.com/product-images/6/thumbnail.png"
+    },
+    {
+      "id": "5",
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "stock": 50,
+      "category": "laptops",
+      "image": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Dell XPS 13",
+      "description": "Dell XPS 13 9310 review: The best Windows ultrabook just got better",
+      "price": 1299,
+      "stock": 20,
+      "category": "laptops",
+      "image": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Bombshell Escape Eau de Parfum",
+      "description": "Adventure awaits. Vibrant and free-spirited, Bombshell Escape is an extension of America’s No. 1 Fragrance.* This Eau de Parfum goes off the grid and finds paradise with refreshing, tropical guava that energizes the senses through a burst of pink pulp. The getaway continues as the scent becomes swept away in a coastal breeze accord. At the heart, a summer glow peony is discovered basking in the rays. Once fully immersed in the tropical jungle, wild palm trees create an entwined twist of warm wood and misty leaves for a radiant, yet fresh base.",
+      "price": 1500,
+      "stock": 25,
+      "category": "perfumes",
+      "image": "https://www.victoriassecret.com/p/1000x1333/png/zz/24/03/29/23/112427155844_OM_F.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Bare Eau de Parfum",
+      "description": "This fragrance becomes you. Authentic and true, Bare mixes with your unique body chemistry to reveal the perfect signature scent. Created with a proprietary blend of musks, this exclusive Eau de Parfum opens with an effervescent freshness of mandarins from Madagascar, softens into a dewy, floral heart of Egyptian violet petals, and lingers with a warm, cocooning base of Australian sandalwood. It’s truly our most personal fragrance yet.",
+      "price": 1200,
+      "stock": 30,
+      "category": "perfumes",
+      "image": "https://www.victoriassecret.com/p/1000x1333/tif/54/43/54439866af414fcc9e8fb53c6773881b/111992303714_OF_F.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Nike Air Max Dn",
+      "description": "Say hello to the next generation of Air technology. The Air Max Dn features our Dynamic Air unit system of dual-pressure tubes, creating a reactive sensation with every step. This results in a futuristic design that’s comfortable enough to wear from day to night. Go ahead—Feel the Unreal.",
+      "price": 2000,
+      "stock": 8,
+      "category": "shoes",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6cfb4ce5-2da4-4a6d-b79d-4ae520ae5e77/air-max-dn-shoes-27XkSQ.png"
+    },
+    {
+      "id": "10",
+      "title": "Air Jordan 1 Low SE",
+      "description": "New colors and fresh textures give you an updated AJ1 without losing its iconic silhouette and familiar feel. Made from premium materials, this all-time favorite comes decked out with comfortable Nike Air cushioning and subtle design details (check out that embroidered heel) to give you a staple sneaker with a modern look.",
+      "price": 1800,
+      "stock": 10,
+      "category": "shoes",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c2be52f9-4943-4d45-aeb9-08ba156e3064/air-jordan-1-low-se-mens-shoes-r4hJb1.png"
+    },
+    {
+      "id": "11",
+      "title": "Air Jordan 1 Low",
+      "description": "Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. With an iconic design that pairs perfectly with any 'fit, these kicks ensure you'll always be on point.",
+      "price": 2500,
+      "stock": 15,
+      "category": "shoes",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ecdf5522-ebbf-4252-93e4-fc2c12d2ea29/air-jordan-1-low-mens-shoes-0LXhbn.png"
+    },
+    {
+      "id": "12",
+      "title": "Linen Suit Jacket",
+      "description": "Brunello Cucinelli's Italian tailoring is crafted with meticulous attention to detail. This suit jacket is made from naturally breathable linen in a single-breasted profile with wide notch lapels and a partial lining for lightness.",
+      "price": 900,
+      "stock": 5,
+      "category": "clothes",
+      "image": "https://www.mrporter.com/variants/images/1647597342023513/in/w560_q60.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Herringbone Linen, Silk, Wool and Cotton-Blend Overshirt",
+      "description": "Quality is paramount for Brunello Cucinelli – everything is made in specialist factories in Italy using premium, natural fibres. This overshirt is made from a linen, silk, wool and cotton-blend woven with a smart herringbone pattern and fastens with horn buttons.",
+      "price": 5000,
+      "stock": 10,
+      "category": "clothes",
+      "image": "https://www.mrporter.com/variants/images/1647597342023563/in/w560_q60.jpg"
+    },
+    {
+      "id": "14",
+      "title": "G9 Suede Harrington Jacket",
+      "description": "Baracuta's 'G9' jacket is its most iconic style - it was designed in 1937 as a waterproof golf coat and can be recognised by its classic Harrington shape. This one is cut from smooth suede for a slim fit and detailed with the brand's signature umbrella-shaped yoke.",
+      "price": 7000,
+      "stock": 7,
+      "category": "clothes",
+      "image": "https://www.mrporter.com/variants/images/1647597318970664/in/w560_q60.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Paula's Ibiza Convertible-Collar Floral-Print Cotton and Silk-Blend Shirt",
+      "description": "From Loewe's resort-led collab with Paula's Ibiza, this convertible-collar shirt draws from Hawaiian styles, swapping out florals for leaves. The botanical pattern is contrasted by its placket and hem, which are bordered by lines of embroidery. It's cut for a boxy fit from a blend of cotton and silk for a smooth and breathable feel.",
+      "price": 6000,
+      "stock": 8,
+      "category": "clothes",
+      "image": "https://www.mrporter.com/variants/images/1647597338867196/in/w560_q60.jpg"
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "name": "seif",
+      "password": "138"
+    },
+    {
+      "id": "2",
+      "name": "ahmed",
+      "password": "1411"
+    },
+    {
+      "id": "3",
+      "name": "mohamed",
+      "password": "123"
+    },
+    {
+      "id": "4",
+      "name": "ali",
+      "password": "156"
+    },
+    {
+      "id": "5",
+      "name": "hesham",
+      "password": "111222333"
+    },
+    {
+      "id": "6",
+      "name": "ali13",
+      "password": "189"
+    },
+    {
+      "id": "7",
+      "name": "pol",
+      "password": "209"
+    },
+    {
+      "id": "8",
+      "name": "yuo",
+      "password": "11111"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "password": "admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "smartphones"
+    },
+    {
+      "id": "2",
+      "name": "laptops"
+    },
+    {
+      "id": "3",
+      "name": "perfumes"
+    },
+    {
+      "id": "4",
+      "name": "shoes"
+    },
+    {
+      "id": "5",
+      "name": "clothes"
+    }
+  ]
+}

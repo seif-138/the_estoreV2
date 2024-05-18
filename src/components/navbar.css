@@ -1,0 +1,28 @@
+.navbar-nav a{
+    color:#ACC8E5;
+}
+.navbar {
+  background-color: #2E266D;  
+}
+.navbar-nav a:hover{
+   color: #6AABF0;
+
+}
+
+.navbar-nav .logout-button {
+  background: none;
+  border: none;
+  color: #ACC8E5;
+  
+  text-decoration: none;
+  /* padding: 0; */
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.navbar-nav .logout-button:hover,
+.navbar-nav .logout-button:focus {
+  text-decoration: none;
+  outline: none;
+  color: #6AABF0;
+}

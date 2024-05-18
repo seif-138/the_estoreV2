@@ -1,0 +1,64 @@
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for centering the form */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid  #211c44;;
+    border-radius: 10px;
+    background-color: #582d7d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input and button styling */
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  /* Button specific styling */
+  button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    align-self: center;
+   /* padding: 25px; */
+ 
+
+  }
+  #submit{
+     border-radius: 15px;
+     padding: 16px;
+    width: 123px;
+    height: 54px;
+     
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  label{
+    color:#ACC8E5;
+  }
+  .rad{
+    color:#ACC8E5;
+  }

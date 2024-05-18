@@ -1,0 +1,30 @@
+.btn-primary{
+    border-color:"#231f3e" !important;
+
+}
+.btn-primary:hover {
+    background-color: #403a75 !important;
+    border-color: #403a75 !important;
+}
+.card-text{
+    color:#403a75 !important;
+}
+.add{
+    background-color: #198b5e !important;
+   
+}
+.add:hover{
+    background-color: #1a6e4c !important;
+}
+.dlt{
+    background-color: #d9534f !important;
+}
+.dlt:hover{
+    background-color: #c9302c !important;
+}
+.ed{
+    background-color: #f0ad4e !important;
+}
+.ed:hover{
+    background-color: #eea236 !important;
+}
