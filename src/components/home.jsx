@@ -3,6 +3,8 @@ import { useEffect , useState} from "react"
 import Products from "./products";
 import './home.css'
 import { useParams, useLocation, Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "./store/slices/cart-slice";
 export default function Home() {
     const location = useLocation();
   const queryParams = new URLSearchParams(location.search);

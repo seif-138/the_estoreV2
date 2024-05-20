@@ -1,9 +1,13 @@
 import './about.css';
+import title from '../assets/eStore (1).png'
 export default function About(){
 
   return (
     <div>
-      <h1 className="ttl">The eStore</h1>
+      <div>
+      <img src={title} alt="Logo" width="500px" height="70px" className="d-inline-block align-text-top"  />
+      {/* <h1 className="ttl">The eStore</h1> */}
+      </div>
       <p>Welcome to</p>
       <p >the eStore</p>
       

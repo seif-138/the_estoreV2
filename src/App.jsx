@@ -7,12 +7,15 @@ import Login from './components/login'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
+
+
 import Home from './components/home'
 import SignUp from './components/signUp'
 import About from './components/about'
 import ProductDetails from './components/productDetails'
 import Edit from './components/edit'
 import AddProduct from './components/addProduct'
+import Cart from './components/cart'
 export const Logged = createContext({ logged: false, updateLogged: () => {} });
 
 function App() {
@@ -33,6 +36,7 @@ function App() {
       <Route path='/admin' element={<Home />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/about" element={<About />} />
+      <Route path="/cart" element={<Cart />} />
       <Route path="/product/:id" element={<ProductDetails />} />
       <Route path="/admin/product/:id/edit" element={<Edit />} />
       <Route path='/admin/addproduct' element={<AddProduct />} />

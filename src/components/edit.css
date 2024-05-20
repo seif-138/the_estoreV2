@@ -1,0 +1,12 @@
+h1{
+    color:rgb(48, 153, 218) !important;
+}
+.btnk{
+    background-color:#8F5BBD !important;
+    border-radius: 6px;
+    width:8em;
+}
+.btnk:hover {
+    background-color: #403a75 !important;
+    border-color: #403a75 !important;
+}

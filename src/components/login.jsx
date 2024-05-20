@@ -2,6 +2,10 @@ import { useContext, useEffect, useRef, useState } from "react"
 import './login.css'
 import { Link , useNavigate} from "react-router-dom";
 import { Logged } from '../App';
+import { useDispatch, useSelector } from "react-redux";
+import { logIn, logOut, selectIsLoggedIn } from  "./store/slices/loggedIn-slice";
+import { selectType } from "./store/slices/type-slice";
+import { setType } from './store/slices/type-slice';
 
 
 export default function Login() {
@@ -14,7 +18,7 @@ export default function Login() {
   const usernameRef = useRef(null);
   const passwordRef = useRef(null);
   const Navigate=useNavigate();
-
+  const ti=useSelector(selectType);
  let validate = () => { 
   const useRef=usernameRef.current.value;
   const passRef=passwordRef.current.value;
@@ -25,7 +29,10 @@ export default function Login() {
     loggedIn = admin.some(user => useRef === user.name && passRef === user.password);
     if(loggedIn){
       alert('admin login successful');
-      updateLogged(true);
+      dispatch(logIn());
+      dispatch(setType('admin'));
+      
+      console.log(ti.type);
       Navigate('/admin');
     } else {
       alert('login failed! please if you are a normal user select user instead of admin');
@@ -35,7 +42,10 @@ export default function Login() {
 
     if(loggedIn){
       alert('login successful');
-      updateLogged(true);
+     dispatch(setType('user'));
+     
+     console.log(ti.type);
+      dispatch(logIn());
       Navigate('/home');
     } else {
       alert('login failed');
@@ -56,6 +66,12 @@ export default function Login() {
     },[])
    
     // console.log(document.getElementById('un').value);
+
+
+    const dispatch = useDispatch();
+    const isLoggedIn = useSelector(selectIsLoggedIn);
+    const tp=useSelector(selectType)
+
 return(
 <>
     <div className="form-container">

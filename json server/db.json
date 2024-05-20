@@ -4,10 +4,13 @@
       "id": "1",
       "title": "iphone 13",
       "description": "he iPhone 13 and iPhone 13 Mini (stylized as iPhone 13 mini) are smartphones designed, developed, marketed, and sold by Apple Inc. They are the fifteenth generation of iPhones (succeeding the iPhone 12 and iPhone 12 Mini respectively). They were unveiled at an Apple Event in Apple Park in Cupertino, California, on September 14, 2021, alongside the higher-priced iPhone 13 Pro and iPhone 13 Pro Max flagships. Pre-orders for the iPhone 13 and iPhone 13 Mini began on September 17, 2021. They were officially released on September 24, 2021. As of May 2024, the iPhone 13 is the oldest iPhone model still officially sold by, and fully supported by Apple (the iPhone 13 Mini was discontinued on September 12, 2023).[13]",
-      "price": 1000,
-      "stock": 20,
+      "price": "1199",
+      "stock": "35",
       "category": "smartphones",
-      "image": "https://th.bing.com/th/id/OIP.85kYOzTbIVzxUVp7IK4tDwHaEo?w=310&h=193&c=7&r=0&o=5&pid=1.7"
+      "image": "https://th.bing.com/th/id/OIP.85kYOzTbIVzxUVp7IK4tDwHaEo?w=310&h=193&c=7&r=0&o=5&pid=1.7",
+      "data": {
+        "price": "1199"
+      }
     },
     {
       "id": "2",
@@ -22,10 +25,13 @@
       "id": "3",
       "title": "Apple watch ultra 2",
       "description": "he most rugged and capable Apple Watch pushes the limits again. Featuring the all-new S9 SiP. A magical new way to use your watch without touching the screen. The brightest Apple display ever. And now you can choose a case and band combination that is carbon neutral.",
-      "price": 499,
-      "stock": 32,
+      "price": "599",
+      "stock": "33",
       "category": "smartphones",
-      "image": "https://th.bing.com/th/id/OIP.40XqgViwxVHBaoRx0VhWWQHaD4?w=328&h=180&c=7&r=0&o=5&pid=1.7"
+      "image": "https://th.bing.com/th/id/OIP.40XqgViwxVHBaoRx0VhWWQHaD4?w=328&h=180&c=7&r=0&o=5&pid=1.7",
+      "data": {
+        "price": "699"
+      }
     },
     {
       "id": "4",
@@ -49,8 +55,8 @@
       "id": "6",
       "title": "Dell XPS 13",
       "description": "Dell XPS 13 9310 review: The best Windows ultrabook just got better",
-      "price": 1299,
-      "stock": 20,
+      "price": "1299",
+      "stock": "20",
       "category": "laptops",
       "image": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
     },
@@ -130,8 +136,8 @@
       "id": "15",
       "title": "Paula's Ibiza Convertible-Collar Floral-Print Cotton and Silk-Blend Shirt",
       "description": "From Loewe's resort-led collab with Paula's Ibiza, this convertible-collar shirt draws from Hawaiian styles, swapping out florals for leaves. The botanical pattern is contrasted by its placket and hem, which are bordered by lines of embroidery. It's cut for a boxy fit from a blend of cotton and silk for a smooth and breathable feel.",
-      "price": 6000,
-      "stock": 8,
+      "price": "6000",
+      "stock": "8",
       "category": "clothes",
       "image": "https://www.mrporter.com/variants/images/1647597338867196/in/w560_q60.jpg"
     }
@@ -140,12 +146,12 @@
     {
       "id": "1",
       "name": "seif",
-      "password": "138"
+      "password": "1234"
     },
     {
       "id": "2",
       "name": "ahmed",
-      "password": "1411"
+      "password": "1811"
     },
     {
       "id": "3",
@@ -176,6 +182,21 @@
       "id": "8",
       "name": "yuo",
       "password": "11111"
+    },
+    {
+      "id": "141b",
+      "name": "pat",
+      "password": "pat"
+    },
+    {
+      "id": "bc99",
+      "name": "orek",
+      "password": "krey"
+    },
+    {
+      "id": "9e95",
+      "name": "mik",
+      "password": "ok"
     }
   ],
   "admin": [

@@ -2,6 +2,9 @@ import { Link, useLocation } from 'react-router-dom'
 import './home.css'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addToCart } from './store/slices/cart-slice'; // replace with actual path
+
 export default function Products({product, onDelete}){
     const location = useLocation();
     const sign=location.pathname.slice(1);
@@ -13,6 +16,10 @@ export default function Products({product, onDelete}){
     const addtocart=()=>{
         setCart(cart - 1);
     }
+
+    const dispatch=useDispatch(); 
+    
+
     return(
     <>
     
@@ -34,7 +41,7 @@ export default function Products({product, onDelete}){
               <button className="btn btn-primary ed"  style={{backgroundColor:"#5c4db5",border:"#403a75"}}>Edit</button>
             </Link>
             }
-            { sign=="home"?   <button onClick={addtocart}className="btn btn-primary ms-2" style={{backgroundColor:"#5c4db5",border:"#403a75"}}>Add to cart</button>:<button onClick={handleDelete} className="btn btn-primary ms-2 dlt" style={{backgroundColor:"#5c4db5",border:"#403a75"}}>Delete</button>}
+            { sign=="home"?   <button onClick={()=>{addtocart();dispatch(addToCart(product));console.log(product)}}className="btn btn-primary ms-2" style={{backgroundColor:"#5c4db5",border:"#403a75"}}>Add to cart</button>:<button onClick={handleDelete} className="btn btn-primary ms-2 dlt" style={{backgroundColor:"#5c4db5",border:"#403a75"}}>Delete</button>}
         </div>
     </div>
 </div>

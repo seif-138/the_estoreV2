@@ -15,10 +15,10 @@ export default function ProductDetails() {
     }, []);
     return (
       <>
-      <img src={product.image} alt={product.name} />
-        <h1>{product.name}</h1>
+      <img src={product.image} alt={product.title} />
+        <h1>{product.title}</h1>
         <p>{product.description}</p>
-        <p>{product.price}$</p>
+        <p>{product.price}$</p><br />
         <p>{product.stock} left in stock</p>
       </>
     )
